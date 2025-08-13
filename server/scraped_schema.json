@@ -1,0 +1,16 @@
+{
+  "step1": [
+    {
+      "name": "aadhaar",
+      "label": "Aadhaar",
+      "required": true,
+      "pattern": "^[0-9]{12}$"
+    },
+    {
+      "name": "name",
+      "label": "Name",
+      "required": true
+    }
+  ],
+  "step2": []
+}
