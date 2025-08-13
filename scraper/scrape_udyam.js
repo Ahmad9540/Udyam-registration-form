@@ -1,4 +1,4 @@
-// npm i puppeteer
+
 const fs = require("fs");
 const puppeteer = require("puppeteer");
 
@@ -61,7 +61,7 @@ const puppeteer = require("puppeteer");
       });
   });
 
-  // 🛠 Split into step1 & step2
+
   const step1Fields = schema.filter((f) =>
     ["aadhaar", "otp"].some((key) => f.name?.toLowerCase().includes(key))
   );
